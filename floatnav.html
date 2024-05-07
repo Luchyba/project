@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Profile</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      float: right;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    table {
+      width: 80%;
+      margin: 80px auto 20px; /* Adjusted margin to make space for the fixed navigation bar */
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #3498db;
+      color: #fff;
+    }
+
+    .profile-picture {
+      display: block;
+      margin: 20px auto;
+      border-radius: 50%;
+      border: 5px solid #3498db;
+    }
+
+    .section-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #3498db;
+      color: #fff;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#personal-info">Personal Information</a>
+    <a href="#about-me">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+  </nav>
+
+  <header>
+    <h1>My Personal Profile</h1>
+  </header>
+
+  <img class="profile-picture" src="new.jpg" alt="Profile Picture">
+
+  <table id="personal-info">
+    <tr>
+      <th colspan="2">Personal Information</th>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td>John Doe</td>
+    </tr>
+    <tr>
+      <td>Age</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>City, Country</td>
+    </tr>
+  </table>
+
+  <div class="section-title" id="about-me">About Me</div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+
+  <div class="section-title" id="education">Education</div>
+  <p>Bachelor's Degree in Computer Science - University XYZ (Year)</p>
+
+  <div class="section-title" id="skills">Skills</div>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <div class="footer">
+    &copy; 2024 My Personal Profile
+  </div>
+
+</body>
+</html>

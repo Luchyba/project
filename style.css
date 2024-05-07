@@ -1,0 +1,21 @@
+header h1{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding:20px;
+}
+.profilepicture{
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    border: 5px solid blue ;
+
+
+}
+div {
+    background-color: lightblue;padding: 10px;
+}
+span {
+    color: red;font-weight: bold
+    ;
+}
